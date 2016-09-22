@@ -4,7 +4,8 @@
 >In the past, you may or may not have used `require()` to bring in code from an external file or to load a module. It is commonly used in Node to load up and establish a connection to a database:
 
 >```javascript
-var pg = require('pg') //This loads PostgreSQL into the current file```
+  var pg = require('pg') //This loads PostgreSQL into the current file
+```
 
 >With the above code, we now have access to all the functions associated with the PostgreSQL module. While this works fine, it introduces a potential problem: Some modules are very robust, and we may only need a few of its functions for a given scope.
 
@@ -13,7 +14,8 @@ var pg = require('pg') //This loads PostgreSQL into the current file```
 >Let's draw out an example. Say I have a file, `math_array_functions` with twenty functions. One of those functions, `countItems,` will count the number of items in an array. I really need this function in another file, `counting_array_items`, which is in the same directory, but I don't want to load all twenty functions. That's where `import` becomes handy! See below for how we do this:
 
 >```javascript
-import { countItems } from "math_array_functions"```
+  import { countItems } from "math_array_functions"
+```
 
 >And just like that, we can use our `countItems` function in `counting_array_items` without loading the other 19 functions.
 
