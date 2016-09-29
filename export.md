@@ -1,7 +1,7 @@
 ## Export: One of Import's siblings.
 
 ### Challenge Description.
->In the previous challenge, you learned about `import` and how it can be leveraged to import small amounts of code from large files. In order for this to work, though, we must utilize one of the statements that goes with `import`, known as `export`. When we want some code-a function, or a variable-to be usable in another file, we must `export` it in order to `import` it into another file. 
+>In the previous challenge, you learned about `import` and how it can be leveraged to import small amounts of code from large files. In order for this to work, though, we must utilize one of the statements that goes with `import`, known as `export`. When we want some code-a function, or a variable-to be usable in another file, we must `export` it in order to `import` it into another file. Like `import`, `export` is a non-browser feature.
 
 >The following is what we refer to as a `named export`. With this, we can `import` any code we `export` into another file with the `import` syntax you learned in the last lesson. Here's an example:
 
@@ -39,7 +39,7 @@ const boo = "far";
 
 ### Challenge Tests
 ```javascript
-assert(code.match(/export\s+const\s+foo\s+=+\s"bar"/ig)
+assert(code.match(/export\s+const\s+foo\s+=+\s"bar"/ig))
 assert(code.match(/export\s+const\s+boo\s+=+\s"far"/ig))
 ```
 

@@ -18,6 +18,9 @@ import { function } from "file_path_goes_here"
 
 >There are a few ways to write an `import` statement, but the above is a very common use-case. Note: the whitespace surrounding the function inside the curly braces is a best practice-it makes it easier to read the `import` statement.
 
+>**CAUTION**: The lessons in this section handle non-browser features. `Import`, and the statements we introduce in the rest of these lessons, won't work on a browser directly, However, we can use various tools to create code out of this to make it work in browser.
+
+
 ### Instructions
 >Add the appropriate `import` statement that will allow the current file to use the `capitalizeString` function. The file where this function lives is called "string_functions," and it is in the same directory as the current file.
 
