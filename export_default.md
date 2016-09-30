@@ -25,7 +25,7 @@ const subtract = (x,y) => {return x - y;}
 
 ### Challenge Tests
 ```javascript
-assert(code.match(export\s+default\s+const\s+subtract\s+=\s+\(x,y\)\s+=>\s+{return\s+x\s-\s+y;}))
+assert(code.match(/export\s+default\s+const\s+subtract\s+=\s+\(x,y\)\s+=>\s+{return\s+x\s-\s+y;}/ig))
 ```
 
 ### Challenge Solution

@@ -12,3 +12,6 @@ A lesson on importing all the values in a given file.
 
 ## [Export Default](https://github.com/silvestrijonathan/ES6_Curriculum/blob/master/export_default.md)
 A lesson on exporting a default value from a module.
+
+## [Importing a Default Export](https://github.com/silvestrijonathan/ES6_Curriculum/blob/master/import_default_export.md)
+A lesson on how to import a default export.

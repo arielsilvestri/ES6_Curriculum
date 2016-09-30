@@ -1,7 +1,6 @@
 ## Import *
 
 ### Challenge Description
-
 >Suppose you have a file that you wish to import all of its contents into the current file. This can be done with the `import *` syntax.
 
 >Here's an example where the contents of a file named "math_functions" are imported into a file in the same directory:
@@ -29,7 +28,7 @@ myStringModule.lowercase("Foo");
 
 ### Challenge Tests
 ```javascript
-assert(code.match(import\s+\*\s+as\s+myStringModule\s+from\s+"capitalize_strings"))
+assert(code.match(/import\s+\*\s+as\s+myStringModule\s+from\s+"capitalize_strings"/ig))
 ```
 
 ### Challenge Solution
