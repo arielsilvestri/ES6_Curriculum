@@ -9,3 +9,6 @@ A lesson on the export syntax.
 
 ## [Import *](https://github.com/silvestrijonathan/ES6_Curriculum/blob/master/import_all.md)
 A lesson on importing all the values in a given file.
+
+## [Export Default](https://github.com/silvestrijonathan/ES6_Curriculum/blob/master/export_default.md)
+A lesson on exporting a default value from a module.
