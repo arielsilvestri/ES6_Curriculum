@@ -6,3 +6,6 @@ A lesson on the difference between Import (ES6) and Require (ES5).
 
 ## [Export](https://github.com/silvestrijonathan/ES6_Curriculum/blob/master/export.md)
 A lesson on the export syntax.
+
+## [Import *](https://github.com/silvestrijonathan/ES6_Curriculum/blob/master/import_all.md)
+A lesson on importing all the values in a given file.

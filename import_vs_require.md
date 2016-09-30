@@ -8,12 +8,13 @@
 >Consider the following example. Imagine that `math_array_functions` has about 20 functions, but I only need one, `countItems`, in my current file. The old `require()` approach would force me to bring in all 20 functions. With this new `import` syntax, I can bring in just the desired function, like so: 
 
 >```javascript
-import { countItems } from "math_array_functions"
+import { countItems } from "math_array_functions";
 ```
 
 >A description of the above code: 
 ```javascript
-import { function } from "file_path_goes_here" 
+import { function } from "file_path_goes_here";
+//We can also import variables the same way!  
 ```
 
 >There are a few ways to write an `import` statement, but the above is a very common use-case. Note: the whitespace surrounding the function inside the curly braces is a best practice-it makes it easier to read the `import` statement.
